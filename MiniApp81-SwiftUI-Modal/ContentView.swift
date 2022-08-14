@@ -2,15 +2,24 @@
 //  ContentView.swift
 //  MiniApp81-SwiftUI-Modal
 //
-//  Created by 前田航汰 on 2022/08/14.
-//
 
 import SwiftUI
 
 struct ContentView: View {
+    @State var isShowThirdView = false
+
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Text("Hello, world!")
+                .padding()
+            Button("モーダル遷移！"){
+                isShowThirdView = true
+            }
+            .sheet(isPresented: $isShowThirdView) {
+                SecondView()
+            }
+        }
     }
 }
 

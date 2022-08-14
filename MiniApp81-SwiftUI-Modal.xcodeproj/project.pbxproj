@@ -11,6 +11,7 @@
 		8778849F28A88D5E00FACE0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8778849E28A88D5E00FACE0C /* ContentView.swift */; };
 		877884A128A88D5F00FACE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877884A028A88D5F00FACE0C /* Assets.xcassets */; };
 		877884A428A88D5F00FACE0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877884A328A88D5F00FACE0C /* Preview Assets.xcassets */; };
+		877884AB28A88EEB00FACE0C /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877884AA28A88EEB00FACE0C /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8778849E28A88D5E00FACE0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		877884A028A88D5F00FACE0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		877884A328A88D5F00FACE0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		877884AA28A88EEB00FACE0C /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				8778849C28A88D5E00FACE0C /* MiniApp81_SwiftUI_ModalApp.swift */,
 				8778849E28A88D5E00FACE0C /* ContentView.swift */,
+				877884AA28A88EEB00FACE0C /* SecondView.swift */,
 				877884A028A88D5F00FACE0C /* Assets.xcassets */,
 				877884A228A88D5F00FACE0C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				877884AB28A88EEB00FACE0C /* SecondView.swift in Sources */,
 				8778849F28A88D5E00FACE0C /* ContentView.swift in Sources */,
 				8778849D28A88D5E00FACE0C /* MiniApp81_SwiftUI_ModalApp.swift in Sources */,
 			);
